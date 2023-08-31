@@ -230,3 +230,8 @@ make flash
 
 make term
 ```
+
+> Thanks to [U-TOE](https://github.com/zhaolanhuang/U-TOE) project, and [RIOT](https://github.com/RIOT-OS/RIOT) project.
+
+
+
