@@ -1,11 +1,13 @@
 # Runing pyTorch Model in STM32F749
 
+>**Model**:\
+&emsp;&emsp; SINE MLP-3 Model\
 >**Toolchain:** \
-&emsp;&emsp;pyTorch + TVM/LLVM + RIOT\
+&emsp;&emsp; pyTorch + TVM/LLVM + RIOT\
 **Procedure:**\
-&emsp;&emsp;(1) Use **pyTorch** to train and save model.\
-&emsp;&emsp;(2) Use **TVM** to compile model and save it to C library format.\
-&emsp;&emsp;(3) Write *main.c* and *Makefile* to compile the model in **RIOT** OS.
+&emsp;&emsp; (1) Use **pyTorch** to train and save model.\
+&emsp;&emsp; (2) Use **TVM** to compile model and save it to C library format.\
+&emsp;&emsp; (3) Write C file and Makefile to compile the model in **RIOT** OS. \
 
 ## Step 1: Train and Save Sine Model in pyTorch
 
