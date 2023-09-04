@@ -12,7 +12,7 @@
 ## Step 1: Train and Save Sine Model in pyTorch
 
 ### Training Sine Model
->**File:** [0101trainSine.py]()\
+>**File:** `0101trainSine.py`\
 **Info:** Refer to [TinyML Book](https://tinymlbook.com/) Chapter 4.
 
 ```python
@@ -36,7 +36,7 @@ scripted_model.save('model/sine_mlp3_scripted.pth')
 
 ## Step 2: Compiled with TVM to Generate Library
 
->**File:** `0201tvm.py`
+>**File:** `0201tvm.py`\
 **Info:** .
 
 ```python
@@ -75,7 +75,7 @@ export_model_library_format(module, './models/default/default.tar')
 
 ### 3.1 Create Code for Embedding Model in C
 
->**File:** `0301sin.c`
+>**File:** `0301sin.c`\
 **Info:** .
 
 * Write `0301sin.c`
