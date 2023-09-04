@@ -22,7 +22,7 @@ torch.save(model.state_dict(), 'model/sine_mlp3.pth')
 
 ### Transform pyTorch Model for TVM
 
->**File:** [0103scriptedpyTorch.py]()\
+>**File:** `0103scriptedpyTorch.py`
 **Info:** [Transform pyTorch model](https://tvm.apache.org/docs/how_to/compile_models/from_pytorch.html).
 
 ```python
@@ -36,7 +36,7 @@ scripted_model.save('model/sine_mlp3_scripted.pth')
 
 ## Step 2: Compiled with TVM to Generate Library
 
->**File:** [0201tvm.py]()\
+>**File:** `0201tvm.py`
 **Info:** .
 
 ```python
@@ -75,7 +75,7 @@ export_model_library_format(module, './models/default/default.tar')
 
 ### 3.1 Create Code for Embedding Model in C
 
->**File:** [0301sin.c]()\
+>**File:** `0301sin.c`
 **Info:** .
 
 * Write `0301sin.c`
